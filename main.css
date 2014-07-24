@@ -1,0 +1,66 @@
+html{
+	min-width: 930px;
+}
+!--hello--!
+body{
+	background-color: white;
+}
+header{
+	text-align: center; 
+	position: relative;
+}
+header p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "helveticaNeue-light" ;
+	font-size: 30px;
+	color: rgba(15, 68, 109, 0.8);
+}
+header a{
+	padding: 3px 6%;
+	text-decoration: none;
+	border-right: 1px solid black;
+	color: rgb(173, 0, 0);
+	font-family: "helveticaNeue-light" ;
+}
+header a:hover{
+	text-decoration: underline;
+}
+header div{
+	background-image: url("retina_wood.png");
+	background-size: 30px;
+	padding: 4px 0; 
+}
+#five{
+	border-right: 1px solid rgba(240, 246, 255, 0);
+}
+.template{
+	margin: 40px 200px;
+	margin-top: 0px;
+	padding: 10px;
+	padding-top: 0px;
+	background-color: rgba(235, 235, 235, .4);
+	border-radius: 9px;
+}
+.template a{
+	font-family: "helveticaNeue-light" ;
+	text-decoration: none;
+	color: rgb(173, 0, 0);
+	font-size: 15px;
+	text-align: center;
+	position: relative;
+}
+.title{
+	text-align: center;
+	margin: 20px;
+	font-family: "helveticaNeue-light" ;
+	font-size: 20px;
+}
+.text{
+	margin-bottom: 20px; 
+	font-family: "helveticaNeue-light" ;
+	font-size: 12px;
+	padding: 0 80px;
+	text-align: center;
+	color: rgb(82, 82, 146);
+}
