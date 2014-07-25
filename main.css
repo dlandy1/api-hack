@@ -34,9 +34,10 @@ header div{
 	border-right: 1px solid rgba(240, 246, 255, 0);
 }
 .feed{
-	margin: 40px 100px;
+	margin: 40px 180px;
 	margin-top: 15px;
 	padding: 5px;
+	padding-top: 1px;
 	background-color: rgba(235, 235, 235, .4);
 	border-radius: 3px;
 }

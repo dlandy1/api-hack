@@ -7,7 +7,7 @@ var Apple = function(tags) {
         function foo(data)
         {
           $.each(
-            data.data.children.slice(0, 10),
+            data.data.children.slice(0, 25),
             function (i, post) {
               $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> Upvotes:' + post.data.ups + '</p> </div' );
  
@@ -22,7 +22,7 @@ var Apple = function(tags) {
         function foo(data)
         {
           $.each(
-            data.data.children.slice(0, 10),
+            data.data.children.slice(0, 25),
             function (i, post) {
               $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> Upvotes:' + post.data.ups + '</p> </div' );
  
@@ -118,7 +118,6 @@ var Apple = function(tags) {
 	     $("#zero").on("click", function(){
 	     $(".search").hide();
 	 	 $(".template").remove();
-	 	 $(".search").show();
 	 $.getJSON(
 	 "http://www.reddit.com/r/technology/hot.json?jsonp=?",
         function foo(data)
