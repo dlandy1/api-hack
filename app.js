@@ -108,11 +108,11 @@ var Apple = function(tags) {
  			}
           )
         })
-	 	  if(link.length == 0){
+}
+}
+if(link.length == 0){
  				alert("no existing subreddit")
  			}
-}
-}
 })
 })
 	     $("#zero").on("click", function(){
