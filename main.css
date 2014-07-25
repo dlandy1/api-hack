@@ -73,3 +73,20 @@ header div{
 	text-align: center;
 	color: rgb(82, 82, 146);
 }
+.search{
+	text-align: center;
+	display: none;
+}
+input{
+	width: 400px;
+	height: 20px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+
+
+
+
+
+
