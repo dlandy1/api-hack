@@ -33,13 +33,19 @@ header div{
 #five{
 	border-right: 1px solid rgba(240, 246, 255, 0);
 }
-.template{
-	margin: 40px 200px;
-	margin-top: 0px;
-	padding: 10px;
-	padding-top: 0px;
+.feed{
+	margin: 40px 100px;
+	margin-top: 15px;
+	padding: 5px;
 	background-color: rgba(235, 235, 235, .4);
+	border-radius: 3px;
+}
+.template{
+	margin: 10px 3px;
+	padding-top: 0px;
+	background-color: white;
 	border-radius: 9px;
+	border: 1px solid white;
 }
 .template a{
 	font-family: "helveticaNeue-light" ;
@@ -49,14 +55,18 @@ header div{
 	text-align: center;
 	position: relative;
 }
+.template a:hover{
+	text-decoration: underline;
+}
+.template:hover{
+	border: 1px solid rgb(145, 145, 145);
+}
 .title{
 	text-align: center;
-	margin: 20px;
 	font-family: "helveticaNeue-light" ;
 	font-size: 20px;
 }
 .text{
-	margin-bottom: 20px; 
 	font-family: "helveticaNeue-light" ;
 	font-size: 12px;
 	padding: 0 80px;
