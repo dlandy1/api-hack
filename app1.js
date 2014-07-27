@@ -83,11 +83,9 @@ var Apple = function() {
 	     $(".template").remove();
 	     $(".feed").hide();
 	 	 $(".search").show();
-	 	  alert("If nothing comes up when you enter text into the search bar, the subreddit does not exist. Enter a diffrent topic or company till posts come up.");
 	 	 $(".search").keydown(function(event) {
 	  		if (event.which == 13){
 	  			var value = $("input").val().trim();
-	  			$("input").val("").select();
 	  			if (value.length == 0){
 	  				alert("put in text")
 	  				}
@@ -101,14 +99,17 @@ var Apple = function() {
           $.each(
             data.data.children.slice(0, 25),
             function (i, post) {
+ 			if(link.length == 0){
+ 				alert("no existing subreddit")
               $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> Upvotes:' + post.data.ups + '</p> </div' );
-        })
-        })
- 		}
+ 			}
+    }
+          )
+        });
+}
 }
 })
-	})
-	    console.log($(".template").length)
+})
 	     $("#zero").on("click", function(){
 	     $(".search").hide();
 	 	 $(".template").remove();
