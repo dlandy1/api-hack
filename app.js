@@ -9,7 +9,7 @@ var Apple = function() {
           $.each(
             data.data.children.slice(0, 25),
             function (i, post) {
-              $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> Upvotes:' + post.data.ups + '</p> </div' );
+              $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> +' + post.data.ups + '</p> </div' );
  
             }
           )
@@ -24,7 +24,7 @@ var Apple = function() {
           $.each(
             data.data.children.slice(0, 25),
             function (i, post) {
-              $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> Upvotes:' + post.data.ups + '</p> </div' );
+              $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> +' + post.data.ups + '</p> </div' );
  
             }
           )
@@ -40,7 +40,7 @@ var Apple = function() {
           $.each(
             data.data.children.slice(0, 25),
             function (i, post) {
-              $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> Upvotes:' + post.data.ups + '</p> </div' );
+              $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> +' + post.data.ups + '</p> </div' );
  
             }
           )
@@ -56,7 +56,7 @@ var Apple = function() {
           $.each(
             data.data.children.slice(0, 25),
             function (i, post) {
-              $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> Upvotes:' + post.data.ups + '</p> </div' );
+              $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> +' + post.data.ups + '</p> </div' );
  
             }
           )
@@ -72,7 +72,7 @@ var Apple = function() {
           $.each(
             data.data.children.slice(0, 25),
             function (i, post) {
-              $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> Upvotes:' + post.data.ups + '</p> </div' );
+              $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> +' + post.data.ups + '</p> </div' );
  
             }
           )
@@ -101,7 +101,7 @@ var Apple = function() {
           $.each(
             data.data.children.slice(0, 25),
             function (i, post) {
-              $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> Upvotes:' + post.data.ups + '</p> </div' );
+              $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> +' + post.data.ups + '</p> </div' );
         })
         })
  		}
@@ -119,7 +119,7 @@ var Apple = function() {
           $.each(
             data.data.children.slice(0, 25),
             function (i, post) {
-              $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> Upvotes:' + post.data.ups + '</p> </div' );
+              $(".feed").append( '<div class = "template"> <p class="title"> <br> <a href ="' + post.data.url + '">'  + post.data.title + '</p> </a> <p class="text">  <br> +' + post.data.ups + '</p> </div' );
  
             }
           )

@@ -15,6 +15,14 @@ header p{
 	font-size: 30px;
 	color: rgba(15, 68, 109, 0.8);
 }
+.bio{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "helveticaNeue-light" ;
+	font-size: 15px;
+	color: black;
+}
 header a{
 	padding: 3px 6%;
 	text-decoration: none;
@@ -69,10 +77,10 @@ header div{
 }
 .text{
 	font-family: "helveticaNeue-light" ;
-	font-size: 12px;
+	font-size: 14px;
 	padding: 0 80px;
 	text-align: center;
-	color: rgb(82, 82, 146);
+	color: rgb(0, 163, 13);
 }
 .search{
 	text-align: center;
