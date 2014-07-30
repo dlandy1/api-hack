@@ -50,7 +50,7 @@ var Apple = function() {
 	 	 $(".template").remove();
 	 	 $(".search").hide();
 	 $.getJSON(
-	 "http://www.reddit.com/r/tesla/hot.json?jsonp=?",
+	 "http://www.reddit.com/r/teslamotors/hot.json?jsonp=?",
         function foo(data)
         {
           $.each(
