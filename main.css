@@ -23,11 +23,15 @@ header p{
 	font-size: 15px;
 	color: black;
 }
+
 .unda{
 	text-align: center;
 	font-family: "helveticaNeue-light" ;
 	font-size: 12px;
 	color: black;
+}
+header a:hover{
+	text-decoration: underline;
 }
 header a{
 	padding: 3px 6%;
@@ -35,9 +39,6 @@ header a{
 	border-right: 1px solid black;
 	color: rgb(173, 0, 0);
 	font-family: "helveticaNeue-light" ;
-}
-header a:hover{
-	text-decoration: underline;
 }
 header div{
 	background-image: url("retina_wood.png");
