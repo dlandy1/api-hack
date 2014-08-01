@@ -42,7 +42,7 @@ header div{
 	border-right: 1px solid rgba(240, 246, 255, 0);
 }
 .feed{
-	margin: 40px 180px;
+	margin: 40px 270px;
 	margin-top: 15px;
 	padding: 5px;
 	padding-top: 1px;
@@ -60,7 +60,7 @@ header div{
 	font-family: "helveticaNeue-light" ;
 	text-decoration: none;
 	color: rgb(173, 0, 0);
-	font-size: 15px;
+	font-size: 18px;
 	text-align: center;
 	position: relative;
 }
@@ -73,13 +73,14 @@ header div{
 .title{
 	text-align: center;
 	font-family: "helveticaNeue-light" ;
-	font-size: 20px;
+	font-size: 9px;
+	margin: 0 70px;
 }
 .text{
-	font-family: "helveticaNeue-light" ;
-	font-size: 14px;
-	padding: 0 80px;
-	text-align: center;
+	font-family: "helveticaNeue-light";
+	font-size: 15px;
+	padding: 0px 14px;
+	padding-bottom: 7px;
 	color: rgb(0, 163, 13);
 }
 .search{

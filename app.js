@@ -16,6 +16,7 @@ var Apple = function() {
  })
 	 $("#one").on("click", function(){
 	 	$(".template").remove();
+    $(".bio").text("Apple Subreddit");
 	 	$(".search").hide();
 	 $.getJSON(
 	 "http://www.reddit.com/r/apple/hot.json?jsonp=?",
@@ -32,6 +33,7 @@ var Apple = function() {
  })
 	 $("#two").on("click", function(){
 	 	 $(".template").remove();
+     $(".bio").text("Google Subreddit");
 	 	 $(".search").hide();
 	 $.getJSON(
 	 "http://www.reddit.com/r/google/hot.json?jsonp=?",
@@ -48,6 +50,7 @@ var Apple = function() {
  })
 	  $("#three").on("click", function(){
 	 	 $(".template").remove();
+     $(".bio").text("Tesla Subreddit");
 	 	 $(".search").hide();
 	 $.getJSON(
 	 "http://www.reddit.com/r/teslamotors/hot.json?jsonp=?",
@@ -64,6 +67,7 @@ var Apple = function() {
  })
 	   $("#four").on("click", function(){
 	 	 $(".template").remove();
+     $(".bio").text("Facebook Subreddit");
 	 	 $(".search").hide();
 	 $.getJSON(
 	 "http://www.reddit.com/r/facebook/hot.json?jsonp=?",
@@ -81,6 +85,7 @@ var Apple = function() {
 	    $("#five").on("click", function(){
 	     var link = [];
 	     $(".template").remove();
+       $(".bio").text("");
 	     $(".feed").hide();
 	 	 $(".search").show();
 	 	  alert("If nothing comes up when you enter text into the search bar, the subreddit does not exist. Enter a diffrent topic or company till posts come up.");
@@ -93,6 +98,7 @@ var Apple = function() {
 	  				}
 	  			else {
 	  			 $(".feed").show();
+           $(".bio").text(value +  " Subreddit");
 	  			 $(".template").remove();
 	 	  $.getJSON(
 	 'http://www.reddit.com/r/' + value + '/hot.json?jsonp=?',
